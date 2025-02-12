@@ -14,3 +14,13 @@ if number%2==0:
     print("the number is even ")
 else:
     print("the number is odd")
+
+# ex3
+
+username=input("Enter your username ")
+password=input("enter your password")
+
+if username=="admin" and password=="1234" :
+   print("granted")
+else:
+    print("denied")
